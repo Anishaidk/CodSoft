@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.navbar{
+   margin-top: 0px;
+    height: 72.8px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.664);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(73, 51, 51);
+    font-size: 1.5rem;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    font-weight:bolder;
+}
+.nav_logo img{
+    height: 80px;
+    width: 100px;
+    padding-top: 7px;
+}
+.search-icon{
+    display: flex;
+    background:transparent;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    margin-right: 0px;
+}
+.search-icon i{
+    background-color: rgba(255, 255, 255, 0.819);
+    height: 36px;
+width: 264px;
+padding:7px 2px 7px 7px ;
+border-top-left-radius: 16px;
+border-bottom-left-radius: 16px;
+}
+.search{
+background-color: rgba(255, 255, 255, 0.819);
+border-top-right-radius: 16px;
+border-bottom-right-radius: 16px;
+height: 36px;
+width: 264px;
+font-size: 1rem;
+padding: 5px;
+border: none;}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+background-image: url('slide-5.jpg');
+background-size: cover;
+height: 500px;
+width:100%;
+}
+.section-text{
+font-size: 40px;
+font-weight: bolder;
+color:#ffffff;
+text-align: center;
+}
+.section:hover{
+    animation: heightAni 3s ease-in 2ms infinite ;
+}
+@keyframes heightAni {
+    from{
+        height: 500px;
+    }
+    to{
+        height: 530px;
+    }
+}
+/* who are we? */
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 200px;
+    height: 452px;
+    width: 1140px;
+    background-color: rgba(255, 255, 255, 0.845);
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: rgba(255, 255, 255, 0.845);
+    color: rgb(44, 17, 17);
+    height: 15px;
+    width: 1140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box1 img{
+    margin-top: 40px;
+    margin-right: 50px;
+    height: 354px;
+    width: 546px;
+}
+.box1 p{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+/* Opening Hours */
+.box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 200px;
+        height: 452px;
+        width: 1140px;
+        background-color: rgba(255, 255, 255, 0.845);
+    }
+    .box2 p{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .box2 img{
+        margin-top: 30px;
+        height: 360px;
+        width: 640px;
+    }
+    /* box 3 */
+    .box3{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 200px;
+        height: 452px;
+        width: 1140px;
+        background-color: rgba(255, 255, 255, 0.845);
+    }
+    .menu{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 200px;
+        background-color: rgba(255, 255, 255, 0.845);
+        color: rgb(44, 17, 17);
+        height: 15px;
+        width: 1140px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .menu-coffee{
+        list-style-type: none;
+        font-size: 22px;
+        color: rgb(59, 42, 42);
+        font-weight: bolder;
+    }
+   .fresh-coffee{
+    color: #f79850;
+    list-style-type:none;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 15px;
+   }
+   img {
+    margin-left: 20px;
+    margin-top: 30px;
+        height: 360px;
+        width: 640px;
+   }
+footer{
+        margin-bottom: 0px;
+         height: 175px;
+         width: 100%;
+         text-align: center;
+         background-color: rgba(255, 255, 255, 0.664);
+     }
